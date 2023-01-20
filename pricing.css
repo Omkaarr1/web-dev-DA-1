@@ -1470,9 +1470,6 @@
   left: 1220px;
   position: absolute;
 }
-.pricing-button72 {
-  transition: 0.3s;
-}
 
 .pricing-button72:hover {
   color: white;
@@ -1495,12 +1492,45 @@
     cursor: pointer;
     height: 57px;
     position: absolute;
-    box-shadow: rgb(32, 191, 208) 5px 5px 10px 0px;
-    border-color: #49d3d6;
-    border-style: groove;
-    border-width: 5px;
-    border-radius: 20px;
-    text-transform: uppercase;
-    text-decoration: inherit;
   }
+  /* 14 */
+.pricing-button72 {
+  background: rgb(255,151,0);
+  border: none;
+  z-index: 1;
 }
+.pricing-button72:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background-color: #eaf818;
+  background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+  transition: all 0.3s ease;
+}
+.pricing-button72:hover {
+  color: #000;
+}
+.pricing-button72:hover:after {
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
