@@ -1,145 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Pricing - Web_Dev_DA_1</title>
-    <meta property="og:title" content="Pricing - Web_Dev_DA_1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+    }
+
+    @keyframes gradient {
+      0% {
+        background-position: 0% 50%;
       }
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
+      50% {
+        background-position: 100% 50%;
       }
-    </style>
-    <link
-      rel="shortcut icon"
-      href="public/playground_assets/1.png"
-      type="icon/png"
-      sizes="32x32"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <!--This is the head section-->
-    <!-- <style> ... </style> -->
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div>
-      <link href="./pricing.css" rel="stylesheet" />
 
-      <div class="pricing-container">
-        <div class="pricing-container1">
-          <button type="button" class="pricing-button button">6</button>
-          <button type="button" class="pricing-button01 button">2</button>
-          <button type="button" class="pricing-button02 button">7</button>
-          <button type="button" class="pricing-button03 button">3</button>
-          <button type="button" class="pricing-button04 button">5</button>
-          <button type="button" class="pricing-button05 button">9</button>
-          <button type="button" class="pricing-button06 button">1</button>
-          <button type="button" class="pricing-button07 button">8</button>
-          <button type="button" class="pricing-button08 button">4</button>
-          <button type="button" class="pricing-button09 button">1</button>
-          <button type="button" class="pricing-button10 button">2</button>
-          <button type="button" class="pricing-button11 button">3</button>
-          <button type="button" class="pricing-button12 button">4</button>
-          <button type="button" class="pricing-button13 button">5</button>
-          <button type="button" class="pricing-button14 button">6</button>
-          <button type="button" class="pricing-button15 button">7</button>
-          <button type="button" class="pricing-button16 button">8</button>
-          <button type="button" class="pricing-button17 button">9</button>
-          <button type="button" class="pricing-button18 button">1</button>
-          <button type="button" class="pricing-button19 button">2</button>
-          <button type="button" class="pricing-button20 button">3</button>
-          <button type="button" class="pricing-button21 button">4</button>
-          <button type="button" class="pricing-button22 button">5</button>
-          <button type="button" class="pricing-button23 button">6</button>
-          <button type="button" class="pricing-button24 button">7</button>
-          <button type="button" class="pricing-button25 button">8</button>
-          <button type="button" class="pricing-button26 button">9</button>
-          <button type="button" class="pricing-button27 button">1</button>
-          <button type="button" class="pricing-button28 button">2</button>
-          <button type="button" class="pricing-button29 button">3</button>
-          <button type="button" class="pricing-button30 button">4</button>
-          <button type="button" class="pricing-button31 button">5</button>
-          <button type="button" class="pricing-button32 button">6</button>
-          <button type="button" class="pricing-button33 button">7</button>
-          <button type="button" class="pricing-button34 button">8</button>
-          <button type="button" class="pricing-button35 button">9</button>
-          <button type="button" class="pricing-button36 button">1</button>
-          <button type="button" class="pricing-button37 button">2</button>
-          <button type="button" class="pricing-button38 button">3</button>
-          <button type="button" class="pricing-button39 button">4</button>
-          <button type="button" class="pricing-button40 button">5</button>
-          <button type="button" class="pricing-button41 button">6</button>
-          <button type="button" class="pricing-button42 button">7</button>
-          <button type="button" class="pricing-button43 button">8</button>
-          <button type="button" class="pricing-button44 button">9</button>
-          <button type="button" class="pricing-button45 button">1</button>
-          <button type="button" class="pricing-button46 button">2</button>
-          <button type="button" class="pricing-button47 button">3</button>
-          <button type="button" class="pricing-button48 button">4</button>
-          <button type="button" class="pricing-button49 button">5</button>
-          <button type="button" class="pricing-button50 button">6</button>
-          <button type="button" class="pricing-button51 button">7</button>
-          <button type="button" class="pricing-button52 button">8</button>
-          <button type="button" class="pricing-button53 button">9</button>
-          <button type="button" class="pricing-button54 button">1</button>
-          <button type="button" class="pricing-button55 button">2</button>
-          <button type="button" class="pricing-button56 button">3</button>
-          <button type="button" class="pricing-button57 button">4</button>
-          <button type="button" class="pricing-button58 button">5</button>
-          <button type="button" class="pricing-button59 button">6</button>
-          <button type="button" class="pricing-button60 button">7</button>
-          <button type="button" class="pricing-button61 button">8</button>
-          <button type="button" class="pricing-button62 button">9</button>
-          <button type="button" class="pricing-button63 button">1</button>
-          <button type="button" class="pricing-button64 button">2</button>
-          <button type="button" class="pricing-button65 button">3</button>
-          <button type="button" class="pricing-button66 button">4</button>
-          <button type="button" class="pricing-button67 button">5</button>
-          <button type="button" class="pricing-button68 button">6</button>
-          <button type="button" class="pricing-button69 button">7</button>
-          <button type="button" class="pricing-button70 button">8</button>
-          <button type="button" class="pricing-button71 button">9</button>
-        </div>
-        <div class="pricing-container2">
-          <h1 class="pricing-text">A</h1>
-          <h1 class="pricing-text1">E</h1>
-          <h1 class="pricing-text2">C</h1>
-          <h1 class="pricing-text3">H</h1>
-          <h1 class="pricing-text4">B</h1>
-          <h1 class="pricing-text5">I</h1>
-          <h1 class="pricing-text6">D</h1>
-          <h1 class="pricing-text7">F</h1>
-        </div>
-        <h1 class="pricing-text8">Please Select your Seats</h1>
-        <button class="pricing-button72 button">Book Now</button>
-      </div>
-    </div>
-    <script
-      data-section-id="header"
-      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
-    ></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  </body>
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+</body>
+
 </html>
